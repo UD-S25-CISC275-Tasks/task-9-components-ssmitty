@@ -30,7 +30,7 @@ const Date_TRANSITIONS: Record<Holiday, Holiday> = {
     Halloween: "Christmas",
     Christmas: "StPatricksDay"
 };
-export function CycleHoliday(): JSX.Element {
+export function CycleHoliday(): React.JSX.Element {
     // We have two parts to our State
     const [Holidays, setHolidays] = useState<Holiday>("Birthday");
     //const [DHolidays, setDHolidays] = useState<Holiday>("StPatricksDay");
